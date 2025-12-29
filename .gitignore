@@ -1,0 +1,32 @@
+# --- Python Generics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks ---
+# Esto es CRÍTICO: Evita subir los historiales de checkpoint
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Entornos Virtuales ---
+venv/
+env/
+.env
+.venv/
+
+# --- Variables de Entorno y Secretos (SEGURIDAD) ---
+.env
+.env.local
+env.py
+
+# --- IDEs (Configuraciones de tu editor que no interesan a nadie más) ---
+.vscode/
+.idea/
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Datos (Opcional) ---
+# Si tienes csvs gigantes, mejor no subirlos
+data/raw/*.csv
