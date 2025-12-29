@@ -1,0 +1,10 @@
+pandas
+numpy
+mplfinance
+matplotlib
+seaborn
+alpha_vantage
+python-dotenv
+requests
+datetime
+json
